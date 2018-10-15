@@ -5,6 +5,11 @@ $font-doc: "Open Sans", sans-serif;
 }
 
 nav {
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  background-color: white;
+
   ul {
     margin: 0;
     padding: 0;
@@ -28,7 +33,7 @@ nav {
 
 
 .jumbotron {
-  background-image: mediumvioletred;
+  padding-top: 100px;
 }
 
 
@@ -39,6 +44,9 @@ body {
 
 #yellow {
     background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
 
   h2 {
     @extend %bold-header;
@@ -47,6 +55,9 @@ body {
 
 #red {
   background-color: red;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   h2 {
     @extend %bold-header;
@@ -56,8 +67,16 @@ body {
 
 #blue {
   background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
 
   h2 {
     @extend %bold-header;
   }
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

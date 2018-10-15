@@ -2,6 +2,12 @@
   font-weight: bold;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -22,7 +28,7 @@ nav a:hover {
 }
 
 .jumbotron {
-  background-image: mediumvioletred;
+  padding-top: 100px;
 }
 
 body {
@@ -31,12 +37,25 @@ body {
 
 #yellow {
   background-color: yellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 #red {
   background-color: red;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #blue {
   background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=sassmain.css.map */
