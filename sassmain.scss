@@ -1,0 +1,67 @@
+$font-doc: "Open Sans", sans-serif;
+
+%bold-header {
+  font-weight: bold;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: mediumvioletred;
+    text-decoration: none;
+  }
+}
+
+
+.jumbotron {
+  background-image: mediumvioletred;
+}
+
+
+body {
+    font: 100% $font-doc;
+}
+
+
+#yellow {
+    background-color: yellow;
+  }
+
+  h2 {
+    @extend %bold-header;
+  }
+}
+
+
+#red {
+  background-color: red;
+  }
+
+  h2 {
+    @extend %bold-header;
+  }
+}
+
+
+#blue {
+  background-color: blue;
+  }
+
+  h2 {
+    @extend %bold-header;
+  }
+}
