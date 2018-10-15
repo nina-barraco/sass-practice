@@ -39,17 +39,14 @@ body {
 
 #yellow {
     background-color: yellow;
-  }
 
   h2 {
     @extend %bold-header;
   }
 }
 
-
 #red {
   background-color: red;
-  }
 
   h2 {
     @extend %bold-header;
@@ -59,7 +56,6 @@ body {
 
 #blue {
   background-color: blue;
-  }
 
   h2 {
     @extend %bold-header;
